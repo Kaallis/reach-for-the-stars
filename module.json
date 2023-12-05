@@ -1,0 +1,69 @@
+{
+  "id": "reach-for-the-stars",
+  "title": "Reach for the Stars",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "url": "https://www.dndbeyond.com/sources/kftgv/reach-for-the-stars",
+  "packs": [
+    {
+      "name": "reachforthestars-actors",
+      "label": "ReachForTheStars-Actors",
+      "path": "packs/reachforthestars-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "reachforthestars-journals",
+      "label": "ReachForTheStars-Journals",
+      "path": "packs/reachforthestars-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "reachforthestars-scenes",
+      "label": "ReachForTheStars-Scenes",
+      "path": "packs/reachforthestars-scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "reachforthestars-adventure",
+      "label": "ReachForTheStars-Adventure",
+      "path": "packs/reachforthestars-adventure",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
